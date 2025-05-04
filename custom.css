@@ -1,0 +1,11 @@
+/* Make the references section font smaller */
+.references {
+  font-size: 20pt; /* Adjust as needed */
+}
+
+/* Remove the red colour from DOI links and in-text references */
+.references a, 
+.csl-entry a, 
+.csl-inline-container a {
+  color: #000000 !important;  /* Force black text */
+}
